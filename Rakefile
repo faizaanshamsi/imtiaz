@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Imtiaz::Application.load_tasks
+Daudischool::Application.load_tasks

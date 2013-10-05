@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Imtiaz::Application.config.secret_token = 'db80e81499a620ae2e67ed84303564eff092759c08603adbe787dd42bae05f47dc4ab308fa29ff1c7ce9138ce4516c437d15a556b8e76ba6a4c795eba4c921a7'
+Daudischool::Application.config.secret_token = 'ad2e681e237392ff140f40c674e5a8fe6ff9e35aeb6fb68696a7834e52049bd73383e8d68b2db7edee7d5c0f34dbda4c90843ae3d1a26d4f8e0f920266fd6830'

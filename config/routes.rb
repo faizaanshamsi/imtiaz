@@ -1,4 +1,16 @@
-Imtiaz::Application.routes.draw do
+Daudischool::Application.routes.draw do
+  
+  get 'portfolio' => 'pages#portfolio'
+  get 'about' => 'pages#about'
+  get 'blog' => 'pages#blog'
+  get 'contact' => 'pages#contact'
+
+
+  root :to => 'pages#home'
+
+
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
