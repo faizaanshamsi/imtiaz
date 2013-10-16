@@ -1,5 +1,7 @@
 Daudischool::Application.routes.draw do
   
+  devise_for :users
+
   get 'portfolio' => 'pages#portfolio'
   get 'about' => 'pages#about'
   get 'blog' => 'pages#blog'

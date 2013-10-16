@@ -1,3 +1,30 @@
+<!-- Adjust Carousel Speed in Milliseconds -->
+<script>
+  $(document).ready(function(){
+    $('.carousel').carousel({
+      interval: 4000
+    });
+  });
+</script> 
+
 <div class="container">
-	<div class="col-md-12">homepage</div>
+<!--  Carousel - consult the Twitter Bootstrap docs at
+      http://twitter.github.com/bootstrap/javascript.html#carousel -->
+<div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
+  <div class="carousel-inner">
+    <div class="item">
+      <img src="http://goo.gl/1ZUB8Y" alt="" />
+    </div>
+    <div class="item">
+      <img src="http://goo.gl/KZYnz6" alt="" />
+    </div>
+    <div class="item">
+      <img src="http://goo.gl/wJn0hg" alt="" />
+    </div>
+  </div><!-- /.carousel-inner -->
+  <!--  Next and Previous controls below
+        href values must reference the id for this carousel -->
+  <!--  <a class="carousel-control left" href="#this-carousel-id" data-slide="prev">&lsaquo;</a>
+    <a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a> -->
+</div><!-- /.carousel -->
 </div>
