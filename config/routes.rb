@@ -6,6 +6,7 @@ Daudischool::Application.routes.draw do
   get 'about' => 'pages#about'
   get 'blog' => 'pages#blog'
   get 'contact' => 'pages#contact'
+  get 'admin' => 'pages#admin'
 
 
   root :to => 'pages#home'

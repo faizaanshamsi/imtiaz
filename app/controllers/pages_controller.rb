@@ -9,4 +9,6 @@ class PagesController < ApplicationController
   end
   def contact
   end
+  def admin
+  end
 end
