@@ -1,0 +1,26 @@
+@font-face
+{
+font-family: champagnesandlimousines;
+src: url(https://s3-us-west-2.amazonaws.com/webpageportfolio/Fonts/Champagne+%26+Limousines.ttf);
+}
+@font-face
+{
+font-family: champagnesandlimousinesbold;
+src: url(https://s3-us-west-2.amazonaws.com/webpageportfolio/Fonts/Champagne+%26+Limousines+Bold.ttf);
+}
+@font-face
+{
+font-family: champagnesandlimousinesitalic;
+src: url(https://s3-us-west-2.amazonaws.com/webpageportfolio/Fonts/Champagne+%26+Limousines+Italic.ttf);
+}
+@font-face
+{
+font-family: champagnesandlimousinesbolditalic;
+src: url(https://s3-us-west-2.amazonaws.com/webpageportfolio/Fonts/Champagne+%26+Limousines+Bold+Italic.ttf);
+}
+
+* {
+	font-family: champagnesandlimousines, verdana, sans-serif;
+	font-size: 25px;
+	font-color: black;
+}
